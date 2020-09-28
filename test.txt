@@ -1,0 +1,2 @@
+Species	Status
+P2	Mouse	PINK1 K/O

@@ -1,0 +1,11 @@
+Species	Status
+P2	Mouse	pink1 K/O
+P4	Mouse	pink1 K/O
+P6	Mouse	pink1 K/O
+P8	Mouse	pink1 K/O
+P9	Mouse	pink1 K/O
+W5	Mouse	WT
+W6	Mouse	WT
+W7	Mouse	WT
+W8	Mouse	WT
+W9	Mouse	WT
