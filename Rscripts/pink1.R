@@ -242,27 +242,33 @@ geneExp20 <- ggplot(top20m) +
 geneExp20
 
 
-geneExp20_1 <- ggplot(top20m, aes(x = sample, y = log2(exp+1),color = sample)) +
-  geom_point(size = 2, shape = "square") +
-  facet_grid(~gene) +
-  xlab(NULL) +
-  ylab("Log2 fold change") +
-  ggtitle("Top20 DE genes") +
-  theme(axis.text.x = element_text(face = "bold", size = 10, angle = 45, hjust = 1))
+geneExp20_1 <- 
+  ggplot(
+    top20m, aes(x = sample, y = log2(exp+1),color = sample)) +
+    geom_point(size = 2, shape = "square") +
+    facet_grid(~gene) +
+    xlab(NULL) +
+    ylab("Log2 fold change") +
+    ggtitle("Top20 DE genes") +
+    theme(
+      axis.text.x = element_text(
+        face = "bold", 
+        size = 10,
+        angle = 45,
+        hjust = 1
+        )
+      )
+
 geneExp20_1
 
-
-
-
-pheatmap(log2(top10+1), 
-         show_rownames = T,
-         show_colnames = F,
-         border_color = NA,
-         color = colorRampPalette(c('#2471A3','white','#C0392B'))(50),
-         annotation = annotation
+pheatmap(
+  log2(top10+1), 
+  show_rownames = T,
+  show_colnames = F,
+  border_color = NA,
+  color = colorRampPalette(c('#2471A3','white','#C0392B'))(50),
+  annotation = annotation
 )
-
-
 
 #mouse to human
 musGenes <- read.csv('mGene.csv', header = T , sep = ',')
@@ -276,7 +282,15 @@ convertMouseGeneList <- function(x){
   human = useMart("ensembl", dataset = "hsapiens_gene_ensembl")
   mouse = useMart("ensembl", dataset = "mmusculus_gene_ensembl")
   
-  genesV2 = getLDS(attributes = c("mgi_symbol"), filters = "mgi_symbol", values = x , mart = mouse, attributesL = c("hgnc_symbol"), martL = human, uniqueRows=T)
+  genesV2 = getLDS(
+    attributes = c("mgi_symbol"),
+    filters = "mgi_symbol",
+    values = x ,
+    mart = mouse,
+    attributesL = c("hgnc_symbol"),
+    martL = human, uniqueRows=T
+    )
+  
   humanx <- unique(genesV2[, 2])
   
   # Print the first 6 genes found to the screen
