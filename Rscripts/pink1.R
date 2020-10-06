@@ -1,6 +1,6 @@
 #Mouse thyroid analysis
 
-setwd("C:/Users/LEE HAN SAI/Desktop/work")
+setwd("C:/Users/LEE HAN SAI/Desktop/work/Pink1")
 source("pink1.R")
 library(DESeq2)
 library(ggrepel)
@@ -161,7 +161,8 @@ volcano <-
     legend.position = "none",
     plot.title = element_text(size = rel(1.5), hjust = 0.5),
     axis.title = element_text(size = rel(1.25))
-    )
+    ) +
+  scale_x_continuous(limits=c(-10,10), breaks=seq(-10,10,2))
 
 volcano
 
@@ -301,3 +302,41 @@ convertMouseGeneList <- function(x){
 
 convertMouseGeneList(musGenes)
 
+#tds bloxplot
+
+tds <- read.csv("tds_boxplot.csv", header = T, sep = ",", row.names = 1)
+tdsm <-melt(as.matrix(tds))
+names(tdsm) <- c("gene","sample","exp")
+tdsm$sample <- ifelse(grepl("P", tdsm$sample),"pink1 K/O","WT")
+
+ggplot(tdsm, aes(x=gene, y=log2(exp)+1, fill=sample)) + 
+  geom_boxplot(coef = 6) +
+  ggtitle("TDS gene")
+
+#tds heat map
+library(gplots)
+
+tdsH <- data.frame (
+  smaple = c("P2","P4","P6","P8","P9","W5","W6","W7","W8","W9"),
+  tds = c(0.803221662,
+          0.384751633,
+          0.424111069,
+          0.259821014,
+          -0.060381502,
+          0.217638405,
+          0.266901199,
+          0.320518476,
+          0.029559821,
+          0.272791287
+          )
+  )
+
+tdsH$tds <- tdsH[order(tdsH[,ncol(tdsH$tds)], decreasing = T),]
+
+order_data_tds <- data.frame(first_column = c("P2","P4","P6","P8","P9","W5","W6","W7","W8","W9"), 
+                         second_column = c(1,2,3,4,5,6,7,8,9,10))
+
+tdsH$sample <- factor(tdsH$sample, levels = tdsH$sample[order(order_data_tds$second_column)])
+
+heatmap.2(rbind(tdsH$tds, tdsH$tds), trace= 'n', Rowv = T,
+          dendrogram = "col", labRow = "", labCol = tdsH$smaple, cexRow = 0.75)
