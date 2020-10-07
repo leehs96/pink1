@@ -1,0 +1,34 @@
+producer_class	xtools.gsea.Gsea
+producer_timestamp	1602051764097
+param	collapse	Collapse
+param	cls	C:\Users\LEE HAN SAI\Desktop\Work\Pink1\gsea.cls#Pink1_versus_WT
+param	plot_top_x	20
+param	norm	meandiv
+param	save_rnd_lists	false
+param	median	false
+param	num	100
+param	scoring_scheme	weighted
+param	make_sets	true
+param	mode	Max_probe
+param	gmx	ftp.broadinstitute.org://pub/gsea/gene_sets/h.all.v7.2.symbols.gmt
+param	gui	false
+param	chip	ftp.broadinstitute.org://pub/gsea/annotations_versioned/Mouse_ENSEMBL_Gene_ID_Human_Orthologs_MSigDB.v7.2.chip
+param	metric	Signal2Noise
+param	rpt_label	gsea_pink
+param	help	false
+param	order	descending
+param	out	C:\Users\LEE HAN SAI\Desktop\Work\Pink1\gsea
+param	create_svgs	false
+param	permute	gene_set
+param	rnd_type	no_balance
+param	set_min	15
+param	include_only_symbols	true
+param	sort	real
+param	create_gcts	false
+param	rnd_seed	timestamp
+param	nperm	1000
+param	zip_report	false
+param	set_max	500
+param	res	C:\Users\LEE HAN SAI\Desktop\Work\Pink1\test.gct
+
+file	C:\Users\LEE HAN SAI\Desktop\Work\Pink1\gsea\gsea_pink.Gsea.1602051764097\index.html

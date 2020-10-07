@@ -106,6 +106,7 @@ write.csv(statsDE,"ttest1.csv")
 statsDE <- read.csv("ttest1.csv", row.names = 1)
 statsDE$sig <- ifelse(statsDE$padj <= 0.05, "sig", "not")
 
+
 #plotMA replicate
 plotMA <- ggplot(statsDE, aes(x = log10(baseMean) , y = log2FoldChange, color = sig)) + 
           geom_point() +
@@ -331,12 +332,13 @@ tdsH <- data.frame (
           )
   )
 
-tdsH$tds <- tdsH[order(tdsH[,ncol(tdsH$tds)], decreasing = T),]
+tdsH <- tdsH[order(tdsH[,ncol(tdsH)], decreasing = T),]
 
 order_data_tds <- data.frame(first_column = c("P2","P4","P6","P8","P9","W5","W6","W7","W8","W9"), 
                          second_column = c(1,2,3,4,5,6,7,8,9,10))
 
 tdsH$sample <- factor(tdsH$sample, levels = tdsH$sample[order(order_data_tds$second_column)])
 
-heatmap.2(rbind(tdsH$tds, tdsH$tds), trace= 'n', Rowv = T,
-          dendrogram = "col", labRow = "", labCol = tdsH$smaple, cexRow = 0.75)
+heatmap.2(rbind(tdsH$tds, tdsH$tds), trace= 'n', Rowv = T, Colv = FALSE,
+          dendrogram = "col", labRow = "", labCol = tdsH$smaple, cexRow = 0.75, distfun = function(x) dist(x, method="euclidean"),
+          hclustfun = function(x) hclust(x, method="ward.D2"))

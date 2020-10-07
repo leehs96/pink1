@@ -1,0 +1,14 @@
+producer_class	xtools.munge.CollapseDataset
+producer_timestamp	1602054540980
+param	chip	ftp.broadinstitute.org://pub/gsea/annotations_versioned/Mouse_ENSEMBL_Gene_ID_Human_Orthologs_MSigDB.v7.2.chip
+param	gui	false
+param	out	C:\Users\LEE HAN SAI\Desktop\Work\Pink1\gsea
+param	help	false
+param	res	C:\Users\LEE HAN SAI\Desktop\Work\Pink1\test.gct
+param	include_only_symbols	true
+param	rpt_label	gsea_pink
+param	mode	Max_probe
+
+file	C:\Users\LEE HAN SAI\Desktop\Work\Pink1\gsea\gsea_pink.CollapseDataset.1602054540980\test_collapsed_to_symbols.gct
+file	C:\Users\LEE HAN SAI\Desktop\Work\Pink1\gsea\gsea_pink.CollapseDataset.1602054540980\Symbol_to_probe_set_mapping_details.tsv
+file	C:\Users\LEE HAN SAI\Desktop\Work\Pink1\gsea\gsea_pink.CollapseDataset.1602054540980\index.html

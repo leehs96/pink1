@@ -1,0 +1,32 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	PCSK2	proprotein convertase subtilisin/kexin type 2 [Source:HGNC Symbol;Acc:HGNC:8744]	8	3.0650277137756348	0.12323845	Yes	
+row_1	ABCC8	ATP binding cassette subfamily C member 8 [Source:HGNC Symbol;Acc:HGNC:59]	18	2.5965261459350586	0.22749902	Yes	
+row_2	PCSK1	proprotein convertase subtilisin/kexin type 1 [Source:HGNC Symbol;Acc:HGNC:8743]	25	2.3724758625030518	0.32290354	Yes	
+row_3	INSM1	INSM transcriptional repressor 1 [Source:HGNC Symbol;Acc:HGNC:6090]	29	2.248919725418091	0.41350925	Yes	
+row_4	SYT13	synaptotagmin 13 [Source:HGNC Symbol;Acc:HGNC:14962]	33	2.167945146560669	0.5008458	Yes	
+row_5	SST	somatostatin [Source:HGNC Symbol;Acc:HGNC:11329]	179	1.236790418624878	0.5416198	Yes	
+row_6	NEUROG3	neurogenin 3 [Source:HGNC Symbol;Acc:HGNC:13806]	293	1.0671093463897705	0.57756454	Yes	
+row_7	DCX	doublecortin [Source:HGNC Symbol;Acc:HGNC:2714]	497	0.9092040657997131	0.60144955	Yes	
+row_8	FOXA2	forkhead box A2 [Source:HGNC Symbol;Acc:HGNC:5022]	890	0.7449271082878113	0.6067644	Yes	
+row_9	PAX6	paired box 6 [Source:HGNC Symbol;Acc:HGNC:8620]	1865	0.5522671937942505	0.56754	Yes	
+row_10	ISL1	ISL LIM homeobox 1 [Source:HGNC Symbol;Acc:HGNC:6132]	2022	0.5306488871574402	0.57911026	Yes	
+row_11	GCK	glucokinase [Source:HGNC Symbol;Acc:HGNC:4195]	2043	0.5275838971138	0.5991471	Yes	
+row_12	STXBP1	syntaxin binding protein 1 [Source:HGNC Symbol;Acc:HGNC:11444]	2132	0.516243040561676	0.6144309	Yes	
+row_13	PKLR	pyruvate kinase L/R [Source:HGNC Symbol;Acc:HGNC:9020]	2742	0.44629693031311035	0.59398276	No	
+row_14	SLC2A2	solute carrier family 2 member 2 [Source:HGNC Symbol;Acc:HGNC:11006]	3188	0.40698012709617615	0.582306	No	
+row_15	ELP4	elongator acetyltransferase complex subunit 4 [Source:HGNC Symbol;Acc:HGNC:1171]	3479	0.38081902265548706	0.57936347	No	
+row_16	MAFB	MAF bZIP transcription factor B [Source:HGNC Symbol;Acc:HGNC:6408]	4088	0.3279545307159424	0.55420065	No	
+row_17	VDR	vitamin D receptor [Source:HGNC Symbol;Acc:HGNC:12679]	4469	0.29114025831222534	0.5419528	No	
+row_18	SEC11A	SEC11 homolog A, signal peptidase complex subunit [Source:HGNC Symbol;Acc:HGNC:17718]	5492	0.19635887444019318	0.4853275	No	
+row_19	CHGA	chromogranin A [Source:HGNC Symbol;Acc:HGNC:1929]	6168	0.13892018795013428	0.44830096	No	
+row_20	NKX6-1	NK6 homeobox 1 [Source:HGNC Symbol;Acc:HGNC:7839]	6336	0.12435264140367508	0.44277316	No	
+row_21	FOXO1	forkhead box O1 [Source:HGNC Symbol;Acc:HGNC:3819]	6372	0.12082512676715851	0.4454405	No	
+row_22	SRPRB	SRP receptor subunit beta [Source:HGNC Symbol;Acc:HGNC:24085]	6425	0.11613939702510834	0.44684488	No	
+row_23	SRP14	signal recognition particle 14 [Source:HGNC Symbol;Acc:HGNC:11299]	8315	-0.04100966826081276	0.32918525	No	
+row_24	SRP9	signal recognition particle 9 [Source:HGNC Symbol;Acc:HGNC:11304]	8690	-0.07344987243413925	0.3085276	No	
+row_25	NKX2-2	NK2 homeobox 2 [Source:HGNC Symbol;Acc:HGNC:7835]	9166	-0.11217997223138809	0.28305408	No	
+row_26	SPCS1	signal peptidase complex subunit 1 [Source:HGNC Symbol;Acc:HGNC:23401]	10103	-0.19188310205936432	0.23168017	No	
+row_27	AKT3	AKT serine/threonine kinase 3 [Source:HGNC Symbol;Acc:HGNC:393]	11484	-0.32011428475379944	0.15743884	No	
+row_28	LMO2	LIM domain only 2 [Source:HGNC Symbol;Acc:HGNC:6642]	12300	-0.41880351305007935	0.1228691	No	
+row_29	DPP4	dipeptidyl peptidase 4 [Source:HGNC Symbol;Acc:HGNC:3009]	15206	-1.106646180152893	-0.015941631	No	
+row_30	PAK3	p21 (RAC1) activated kinase 3 [Source:HGNC Symbol;Acc:HGNC:8592]	15549	-1.4196091890335083	0.019770153	No	

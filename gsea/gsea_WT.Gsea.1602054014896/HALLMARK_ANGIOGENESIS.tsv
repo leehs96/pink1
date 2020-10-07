@@ -1,0 +1,36 @@
+NAME	SYMBOL	TITLE	RANK IN GENE LIST	RANK METRIC SCORE	RUNNING ES	CORE ENRICHMENT	
+row_0	VCAN	versican [Source:HGNC Symbol;Acc:HGNC:2464]	752	0.7917546629905701	-0.008021386	No	
+row_1	LPL	lipoprotein lipase [Source:HGNC Symbol;Acc:HGNC:6677]	852	0.754941463470459	0.023377143	No	
+row_2	FGFR1	fibroblast growth factor receptor 1 [Source:HGNC Symbol;Acc:HGNC:3688]	1015	0.7089501023292542	0.048501533	No	
+row_3	SLCO2A1	solute carrier organic anion transporter family member 2A1 [Source:HGNC Symbol;Acc:HGNC:10955]	1729	0.5683308243751526	0.031800702	No	
+row_4	PGLYRP1	peptidoglycan recognition protein 1 [Source:HGNC Symbol;Acc:HGNC:8904]	2595	0.46017614006996155	1.0234129E-4	No	
+row_5	PRG2	proteoglycan 2, pro eosinophil major basic protein [Source:HGNC Symbol;Acc:HGNC:9362]	3092	0.41521018743515015	-0.010525614	No	
+row_6	TNFRSF21	TNF receptor superfamily member 21 [Source:HGNC Symbol;Acc:HGNC:13469]	3368	0.3917295038700104	-0.0083620865	No	
+row_7	KCNJ8	potassium inwardly rectifying channel subfamily J member 8 [Source:HGNC Symbol;Acc:HGNC:6269]	4267	0.31064367294311523	-0.049603403	No	
+row_8	PTK2	protein tyrosine kinase 2 [Source:HGNC Symbol;Acc:HGNC:9611]	4559	0.28370586037635803	-0.053838503	No	
+row_9	COL3A1	collagen type III alpha 1 chain [Source:HGNC Symbol;Acc:HGNC:2201]	5611	0.1860189437866211	-0.11096198	No	
+row_10	POSTN	periostin [Source:HGNC Symbol;Acc:HGNC:16953]	5703	0.1788940727710724	-0.107788816	No	
+row_11	VEGFA	vascular endothelial growth factor A [Source:HGNC Symbol;Acc:HGNC:12680]	6149	0.14019131660461426	-0.1289114	No	
+row_12	JAG2	jagged canonical Notch ligand 2 [Source:HGNC Symbol;Acc:HGNC:6189]	6710	0.09082585573196411	-0.15976173	No	
+row_13	VAV2	vav guanine nucleotide exchange factor 2 [Source:HGNC Symbol;Acc:HGNC:12658]	6732	0.08883070945739746	-0.156658	No	
+row_14	APOH	apolipoprotein H [Source:HGNC Symbol;Acc:HGNC:616]	8033	-0.017640046775341034	-0.23791112	No	
+row_15	VTN	vitronectin [Source:HGNC Symbol;Acc:HGNC:12724]	8548	-0.0610782690346241	-0.2673389	No	
+row_16	LUM	lumican [Source:HGNC Symbol;Acc:HGNC:6724]	8665	-0.07087352871894836	-0.2711328	No	
+row_17	COL5A2	collagen type V alpha 2 chain [Source:HGNC Symbol;Acc:HGNC:2210]	9146	-0.11091748625040054	-0.29592672	No	
+row_18	FSTL1	follistatin like 1 [Source:HGNC Symbol;Acc:HGNC:3972]	9437	-0.13357093930244446	-0.30758673	No	
+row_19	MSX1	msh homeobox 1 [Source:HGNC Symbol;Acc:HGNC:7391]	11113	-0.2856537997722626	-0.39916465	No	
+row_20	NRP1	neuropilin 1 [Source:HGNC Symbol;Acc:HGNC:8004]	11223	-0.29525816440582275	-0.39132497	No	
+row_21	STC1	stanniocalcin 1 [Source:HGNC Symbol;Acc:HGNC:11373]	12230	-0.40842553973197937	-0.43451267	No	
+row_22	PDGFA	platelet derived growth factor subunit A [Source:HGNC Symbol;Acc:HGNC:8799]	12597	-0.4599747359752655	-0.43469468	No	
+row_23	LRPAP1	LDL receptor related protein associated protein 1 [Source:HGNC Symbol;Acc:HGNC:6701]	13421	-0.5851972699165344	-0.457504	Yes	
+row_24	PF4	platelet factor 4 [Source:HGNC Symbol;Acc:HGNC:8861]	13557	-0.6075104475021362	-0.43573314	Yes	
+row_25	ITGAV	integrin subunit alpha V [Source:HGNC Symbol;Acc:HGNC:6150]	13587	-0.6126924157142639	-0.40700686	Yes	
+row_26	CCND2	cyclin D2 [Source:HGNC Symbol;Acc:HGNC:1583]	13707	-0.6401224136352539	-0.3825986	Yes	
+row_27	THBD	thrombomodulin [Source:HGNC Symbol;Acc:HGNC:11784]	14272	-0.7689058780670166	-0.3798819	Yes	
+row_28	APP	amyloid beta precursor protein [Source:HGNC Symbol;Acc:HGNC:620]	14478	-0.8279188871383667	-0.35154057	Yes	
+row_29	CXCL6	C-X-C motif chemokine ligand 6 [Source:HGNC Symbol;Acc:HGNC:10643]	14998	-0.992641806602478	-0.3348218	Yes	
+row_30	S100A4	S100 calcium binding protein A4 [Source:HGNC Symbol;Acc:HGNC:10494]	15350	-1.2243105173110962	-0.2959343	Yes	
+row_31	OLR1	oxidized low density lipoprotein receptor 1 [Source:HGNC Symbol;Acc:HGNC:8133]	15645	-1.544370412826538	-0.23748234	Yes	
+row_32	TIMP1	TIMP metallopeptidase inhibitor 1 [Source:HGNC Symbol;Acc:HGNC:11820]	15686	-1.6358861923217773	-0.15841846	Yes	
+row_33	JAG1	jagged canonical Notch ligand 1 [Source:HGNC Symbol;Acc:HGNC:6188]	15687	-1.6365739107131958	-0.07679312	Yes	
+row_34	SPP1	secreted phosphoprotein 1 [Source:HGNC Symbol;Acc:HGNC:11255]	15728	-1.7601006031036377	0.0084660435	Yes	
